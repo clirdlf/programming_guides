@@ -120,10 +120,10 @@ Go through the [Website Launch Checklist](launch)
 * On the day of the launch be prepared to react if/when something goes
   wrong (All hands on deck)
 * Announce the launch
-  [ ] email
-  [ ] social media
-  [ ] PR
-  [ ] other?
+  - [ ] email
+  - [ ] social media
+  - [ ] PR
+  - [ ] other?
 
 
 
