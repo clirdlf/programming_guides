@@ -35,6 +35,9 @@ $ sudo service apache2 reload
 $ sudo letsencrypt -d newdomain.clir.org
 ```
 
+- In the specific site, go to **Tools->Domain Mapping** and add the
+  domain.
+
 Choose if you want **Easy** (add TLS, but don't force all traffic) or
 **Secure** (all traffice on TLS).
 
