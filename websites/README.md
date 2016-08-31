@@ -43,7 +43,7 @@ Choose if you want **Easy** (add TLS, but don't force all traffic) or
 
 # TLS for Websites
 
-TLS for websites is provided on server through [EFF Certbo](https://certbot.eff.org/)
+TLS for websites is provided on server through [EFF Certbot](https://certbot.eff.org/)
 (what drives the [Let's Encrypt project](https://letsencrypt.org/)).
 The package is updated via `apt` on the server and included in
 server self-updates.
