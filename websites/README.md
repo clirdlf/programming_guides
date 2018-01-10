@@ -4,39 +4,21 @@
 
 Use Jekyll...and host on Github Pages.
 
-
 ## Wordpress
 
-- As a WordPress admin to create a new site
+- As a WordPress Network Admin to create a new site and fill out the
+  'owner' information
 - Ask to have a domain added (in Route 53; if a `.clir.org` domain, also
-  added to the Windows DC)
-- Create a new Apache config (be sure the file extension is `.conf`).
-  This uses *newdomain* as a placeholder; replace this with the actual
-domain you're creating.
+  added to the Windows DC). Delcor can do this if no one is around.
+- On the newly created site, click on **Admin -> Tools -> Domain Mapping**
+  and add the FQDN under "Add new domain" (e.g. test.clir.org)
 
-```
-$ cd /etc/apache2/sites-available
-$ sudo cp wordpress.clir.org.conf newdomain.clir.org.conf
-$ sudo vim newdomain.clir.org.conf
-```
-
-In `vim` do `<esc> :%s/wordpress/newdomain/g <enter>` then `:x`.
-
-The enable the site and reload the `apache2` deamon:
-
-```
-$ sudo a2ensite newdomain
-$ sudo service apache2 reload
-```
-
+### TODO
 - If you need SSL, we can generate these:
 
 ```
 $ sudo letsencrypt -d newdomain.clir.org
 ```
-
-- In the specific site, go to **Tools->Domain Mapping** and add the
-  domain.
 
 Choose if you want **Easy** (add TLS, but don't force all traffic) or
 **Secure** (all traffice on TLS).
