@@ -28,7 +28,7 @@ Order equipment as needed (wayne)
 - [ ] License for Microsoft Office 365 (wayne)
 - [ ] License for Box.com (wayne)
 - [ ] License for LastPass (wayne)
-- [ ] Does the person need Adobe Creative cloud? (wayne through declor)
+- [ ] Does the person need Adobe Creative cloud? (wayne through quotes@declor.com)
 
 ## First Day
 
